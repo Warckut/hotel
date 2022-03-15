@@ -1,0 +1,67 @@
+@import 'default_variables.scss';
+
+.colors-and-type {
+    display: flex;
+    justify-content: space-between;
+    padding: 14.5rem 15rem;
+}
+
+// .wrapper {
+//     width: 43rem;
+// }
+
+.font {
+    display: flex;
+    margin-bottom: 5rem;
+    .tag-name {
+        color: $DarkShade25;
+        font-weight: 400;
+        text-align: right;
+        width: 5rem;
+    }
+    .description {
+        margin-left: 3rem;
+        width: 37rem;
+    }
+}
+
+.color {
+    display: flex;
+    margin-bottom: 2rem;
+    .icon {
+        width: 7rem;
+        height: 7rem;
+        border-radius: .5rem;
+    }
+    .description {
+        margin: 1rem 0 0 4rem;
+        line-height: 2.9rem;
+        small {
+            font-size: 1.9rem;
+            color: $DarkShade100;
+            font-weight: 400;
+        }
+    }
+    .darkShade100 {
+        background-color: $DarkShade100;
+    }
+    .darkShade75 {
+        background-color: $DarkShade75;
+    }
+    .darkShade50 {
+        background-color: $DarkShade50;
+    }
+    .darkShade25 {
+        background-color: $DarkShade25;
+    }
+    .darkShade5 {
+        background-color: $DarkShade5;
+    }
+    .purple {
+        background-color: $Purple;
+    }
+    .green {
+        background-color: $Green;
+    }
+}
+
