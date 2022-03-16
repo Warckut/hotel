@@ -1,2 +1,92 @@
-@import "https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap";.colors-and-type{display:flex;justify-content:space-between;padding:14.5rem 15rem}.font{display:flex;margin-bottom:5rem}.font .tag-name{color:rgba(31,32,65,.25);font-weight:400;text-align:right;width:5rem}.font .description{margin-left:3rem;width:37rem}.color{display:flex;margin-bottom:2rem}.color .icon{border-radius:.5rem;height:7rem;width:7rem}.color .description{line-height:2.9rem;margin:1rem 0 0 4rem}.color .description small{color:#1f2041;font-size:1.9rem;font-weight:400}.color .darkShade100{background-color:#1f2041}.color .darkShade75{background-color:rgba(31,32,65,.75)}.color .darkShade50{background-color:rgba(31,32,65,.5)}.color .darkShade25{background-color:rgba(31,32,65,.25)}.color .darkShade5{background-color:rgba(31,32,65,.05)}.color .purple{background-color:#bc9cff}.color .green{background-color:#6fcf97}a:focus,button:focus{outline:none}.nav-signin,.nav-signup{border:none;border-radius:25rem;font-size:1.2rem;font-weight:600;height:3.4rem}.nav-signin:hover,.nav-signup:hover{cursor:pointer}.header{justify-content:space-between;margin:0 auto;max-width:117rem;padding-left:1rem;padding-right:1rem}.header,.nav{align-items:center;display:flex}.nav{list-style:none}.nav-item{padding-left:1rem;padding-right:1rem;position:relative}.nav-item .dropdown{border:1px solid gray;display:none;left:0;list-style:none;padding:0;position:absolute;width:13rem}.nav-item .dropdown-item{padding:1rem}.nav-item:hover .dropdown{display:block}.nav .dropdown-icon{height:.8rem;margin-left:.7rem;margin-right:.7rem;position:relative;width:1.2rem}.nav .dropdown-icon:before{background-image:url(expand-more.884cc84c.svg);background-size:contain;content:"";display:block;height:100%;position:absolute;top:.5rem;width:100%}.nav-link{color:#1f2041;display:flex;opacity:75%;text-decoration:none}.nav-signin{background-color:#fff;color:#bc9cff;height:3rem;padding-left:1.9rem;padding-right:1.9rem;position:relative}.nav-signin:before{border-radius:25rem;content:"";display:block;height:calc(100% + .4rem);left:-.2rem;position:absolute;top:-.2rem;width:calc(100% + .4rem);z-index:-1}.nav-signin:before,.nav-signup{background-color:#bc9cff;background:linear-gradient(180deg,#bc9cff 52%,#8ba4f9)}.nav-signup{color:#fff;padding-left:2rem;padding-right:2rem}.landing{background-image:url(landingpage.5a2cf381.png);background-size:cover;height:83rem;padding-top:7rem}.room-selection{background-color:#fff;border-radius:.4rem;display:flex;flex-direction:column;padding:2rem 3rem 3rem;width:32rem}.room-selection h2{font-size:2.4rem;font-weight:700;line-height:2.9rem}.room-selection span{font-size:1.2rem;font-weight:700;line-height:1.5rem}.room-selection__dates{display:flex}.container{height:100%;margin:0 auto;max-width:117rem;padding-left:1rem;padding-right:1rem;position:relative}.container .title{bottom:1.8rem;line-height:2.4rem;position:absolute;right:0;text-align:right;width:29.7rem}.date-picker{position:relative}.dates{background:#fff;border:1px solid #c7c7cf;height:37rem;position:absolute;width:32rem;z-index:1}html{font-size:10px}*{margin:0;padding:0}body{color:rgba(31,32,65,.75);font-family:Montserrat,sans-serif;font-size:1.4rem;font-weight:400;line-height:1.7rem;line-height:2.4rem}h1,h2,h3{color:#1f2041;font-weight:700}h1{font-size:2.4rem;line-height:2.8rem}h2{font-size:1.9rem;line-height:2.4rem}h3{font-size:1.2rem;line-height:1.9rem;text-transform:uppercase}
-/*# sourceMappingURL=colorsAndType.10d60472.css.map */
+@import "https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap";
+.colors-and-type {
+  display: flex;
+  justify-content: space-between;
+  padding: 14.5rem 15rem 0 15rem;
+}
+.font {
+  display: flex;
+  margin-bottom: 5rem;
+}
+.font .tag-name {
+  color: rgba(31, 32, 65, 0.25);
+  font-weight: 400;
+  text-align: right;
+  width: 5rem;
+}
+.font .description {
+  margin-left: 3rem;
+  width: 37rem;
+}
+.color {
+  display: flex;
+  margin-bottom: 2rem;
+}
+.color .icon {
+  width: 7rem;
+  height: 7rem;
+  border-radius: 0.5rem;
+}
+.color .description {
+  margin: 1rem 0 0 4rem;
+  line-height: 2.9rem;
+}
+.color .description small {
+  font-size: 1.9rem;
+  color: #1f2041;
+  font-weight: 400;
+}
+.color .darkShade100 {
+  background-color: #1f2041;
+}
+.color .darkShade75 {
+  background-color: rgba(31, 32, 65, 0.75);
+}
+.color .darkShade50 {
+  background-color: rgba(31, 32, 65, 0.5);
+}
+.color .darkShade25 {
+  background-color: rgba(31, 32, 65, 0.25);
+}
+.color .darkShade5 {
+  background-color: rgba(31, 32, 65, 0.05);
+}
+.color .purple {
+  background-color: #BC9CFF;
+}
+.color .green {
+  background-color: #6FCF97;
+}
+html {
+  font-size: 10px;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-size: 1.4rem;
+  line-height: 1.7rem;
+  font-family: "Montserrat", sans-serif;
+  color: rgba(31, 32, 65, 0.75);
+  font-weight: 400;
+  line-height: 2.4rem;
+}
+h1, h2, h3 {
+  color: #1f2041;
+  font-weight: 700;
+}
+h1 {
+  font-size: 2.4rem;
+  line-height: 2.8rem;
+}
+h2 {
+  font-size: 1.9rem;
+  line-height: 2.4rem;
+}
+h3 {
+  font-size: 1.2rem;
+  line-height: 1.9rem;
+  text-transform: uppercase;
+}
+/*# sourceMappingURL=colorsAndType.75f14d4e.css.map */
