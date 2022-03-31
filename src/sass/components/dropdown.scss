@@ -1,0 +1,39 @@
+.dropdown {
+    margin-bottom: 1.7rem;
+    .dropdown__label {
+        margin-bottom: .4rem;
+    }
+
+    select {
+        -moz-appearance: none;
+        -webkit-appearance: none;
+        appearance: none;
+        width: 100%;
+        border: 1px solid $DarkShade25;
+        border-radius: .3rem;
+        outline: none;
+        color: $DarkShade75;
+        padding: 1.3rem 3.5rem 1.3rem 1.3rem;
+        cursor: pointer;
+    }
+    
+    select:focus, select:hover {
+        border: 1px solid $DarkShade50;
+    }
+    
+    .select-wrapper {
+        position: relative;
+    }
+    
+    .select-wrapper::after {
+        content: "";
+        position: absolute;
+        top: 45%;
+        right: 1.5rem;
+        display: block;
+        width: 1.2rem;
+        height: 1.2rem;
+        background: no-repeat top url("/src/images/expand-more.svg");
+        pointer-events: none;
+    }
+}

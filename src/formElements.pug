@@ -1,0 +1,119 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        meta(http-equiv="X-UA-Compatible", content="ie=edge")
+        title Document
+        link(rel="preconnect", href="https://fonts.googleapis.com")
+        link(rel="preconnect", href="https://fonts.gstatic.com" crossorigin)
+        link(href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap", rel="stylesheet")
+        link(href="sass/style.scss" rel="stylesheet")
+    body
+        main.forms 
+            //- form
+                .textfield
+                    label(for="email-1").textfield__label
+                        h3 text field
+                    input(type="text" id="email-1" placeholder="Email").textfield__input
+                .textfield
+                    label(for="email-2").textfield__label
+                        h3 text field
+                    input(type="text" id="email-2" placeholder="Email" value="This is pretty awesome").textfield__input
+                .dropdown(style="margin-bottom: 2rem")
+                    label(for="dropdown").dropdown__label
+                        h3 dropdown 
+                    .select-wrapper
+                        select(id="dropdown")
+                            option(value="" selected disabled hidden) Сколько гостей
+                .textfield.datemask(style="margin-bottom: 3.8rem")
+                    label(for="date").textfield__label
+                        h3 masked text field
+                    input(type="text" id="date" placeholder="ДД.ММ.ГГГГ").textfield__input
+                .entry-exit(style="margin-bottom: 2.2rem")
+                    .dropdown
+                        label(for="entry-date").dropdown__label
+                            h3 date dropdown
+                        .select-wrapper
+                            select(id="entry-date")
+                                option(value="" selected disabled hidden) ДД.ММ.ГГГГ
+                    .dropdown
+                        label(for="exit-date").dropdown__label
+                            h3 date dropdown
+                        .select-wrapper
+                            select(id="exit-date")
+                                option(value="" selected disabled hidden) 19.08.2019
+                .dropdown.date-filter(style="margin-bottom: 3.8rem")
+                    label(for="entry-date").dropdown__label
+                        h3 filter date dropdown
+                    .select-wrapper
+                        select(id="dropdown")
+                            option(value="" selected disabled hidden) 19 авг - 23 авг
+                .textfield.subscription
+                    label(for="email-3").textfield__label
+                        h3 subscription text field
+                    .input-wrapper
+                        input(type="text" id="email-3" placeholder="Email").textfield__input
+            form(style="width: 26rem; margin-left: -.2rem")
+                h3(style="margin-bottom: 1.5rem;") checkbox buttons
+                label.checkbox
+                    input(type="checkbox").checkbox__input.visually-hidden
+                    span.checkbox__btn
+                    span Можно курить
+                label.checkbox
+                    input(type="checkbox" checked).checkbox__input.visually-hidden
+                    span.checkbox__btn
+                    span Можно с питомцами
+                label.checkbox
+                    input(type="checkbox" checked).checkbox__input.visually-hidden
+                    span.checkbox__btn
+                    span Можно пригласить гостей (до 10 человек)
+                h3(style="margin-top: 3.9rem; margin-bottom: 1.5rem") radio buttons
+                .select-sex
+                    label.radio
+                        input(type="radio" name="sex" checked).radio__input.visually-hidden
+                        span.radio__btn
+                        span.radio__label Мужчина
+                    label.radio
+                        input(type="radio" name="sex").radio__input.visually-hidden
+                        span.radio__btn
+                        span.radio__label Женщина
+                h3(style="margin-top: 4rem; margin-bottom: 1.4rem") toggle
+                label.toggle
+                    input(type="checkbox" checked).toggle__input.visually-hidden
+                    span.toggle__btn
+                    span.toggle__label Получать спецпредложения
+                label.toggle
+                    input(type="checkbox").toggle__input.visually-hidden
+                    span.toggle__btn
+                    span.toggle__label Получать спецпредложения 
+                h3(style="margin-top: 4.5rem; margin-bottom: 1.3rem") like button
+                .container
+                    button.like
+                        .like__icon
+                        span.like__count 2
+                    button.like.like-active
+                        .like__icon
+                        span.like__count 12
+                h3(style="margin-top: 4.0rem; margin-bottom: 1.3rem") rate button
+                .rating-container
+                    fieldset.rating 
+                        .rating__group
+                            input( type="radio" name="rating-1" value="1" aria-label="Ужасно" checked).rating__star
+                            input( type="radio" name="rating-1" value="2" aria-label="Плохо").rating__star
+                            input( type="radio" name="rating-1" value="3" aria-label="Нормально").rating__star
+                            input( type="radio" name="rating-1" value="4" aria-label="Хорошо").rating__star
+                            input( type="radio" name="rating-1" value="5" aria-label="Отлично").rating__star
+                    fieldset.rating 
+                        .rating__group
+                            input( type="radio" name="rating-2" value="1" aria-label="Ужасно" checked).rating__star
+                            input( type="radio" name="rating-2" value="2" aria-label="Плохо").rating__star
+                            input( type="radio" name="rating-2" value="3" aria-label="Нормально").rating__star
+                            input( type="radio" name="rating-2" value="4" aria-label="Хорошо").rating__star
+                            input( type="radio" name="rating-2" value="5" aria-label="Отлично").rating__star
+            form
+                .textfield
+                    label(for="email-1").textfield__label
+                        h3 range slider
+                    input(type="text" id="email-1" placeholder="Email").textfield__input
+

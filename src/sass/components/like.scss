@@ -1,0 +1,31 @@
+.like {
+    width: 3.8rem;
+    height: 1.8rem;
+    border-radius: 2rem;
+    box-shadow: 0 0 0 0.1rem $DarkShade25;
+    display: inline-grid;
+    grid-auto-flow: column;
+    align-items: center;
+    padding-left: .4rem;
+    padding-right: .8rem;
+    color: $DarkShade50;
+    line-height: 1rem;
+    font-size: .9rem;
+
+    .like__icon {
+        width: 1rem;
+        height: .8rem;
+        background: no-repeat url("/src/images/like-inactive.svg");
+    }
+    & + & {
+        margin-left: 1.5rem;
+    }
+}
+
+
+.like-active {
+    box-shadow: 0 0 0 0.1rem $DarkShade25;
+    .like__icon {
+        background: no-repeat url("/src/images/like-active.svg");
+    }
+}

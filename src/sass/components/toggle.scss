@@ -1,0 +1,25 @@
+.toggle {
+    cursor: pointer;
+    margin-left: 5.1rem;
+
+    .toggle__btn {
+        position: absolute;
+        margin-left: -4.9rem;
+        width: 3.8rem;
+        height: 1.9rem;
+        border-radius: 2rem;
+        box-shadow: 0 0 0 0.1rem $DarkShade25;
+        background: no-repeat url("/src/images/check-off.svg");
+        background-position: 10% 50%;
+    }
+
+    .toggle__input:checked + .toggle__btn {
+        background: no-repeat url("/src/images/check-on.svg");
+        background-position: 90% 50%;
+        box-shadow: 0 0 0 0.1rem $Purple;
+    }
+
+    & + & {
+        margin-top: 1.6rem;
+    }
+}

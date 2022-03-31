@@ -1,0 +1,21 @@
+.checkbox {
+    display: block;
+    max-width: 20rem;
+    margin-bottom: 1.2rem;
+    margin-left: 3.1rem;
+    cursor: pointer;
+
+    .checkbox__btn {
+        position: absolute;
+        margin-left: -2.9rem;
+        width: 1.8rem;
+        height: 1.8rem;
+        border-radius: 0.3rem;
+        box-shadow: 0 0 0 0.1rem $Purple;
+    }
+
+    .checkbox__input:checked + .checkbox__btn {
+        background: no-repeat url("/src/images/Vector.svg");
+        background-position: 50% 52%;
+    } 
+}

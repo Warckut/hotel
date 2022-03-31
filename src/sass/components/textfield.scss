@@ -1,0 +1,23 @@
+.textfield {
+    margin-bottom: 1.7rem;
+    .textfield__label {
+        margin-bottom: .4rem;
+    }
+    .textfield__input {
+        width: 100%;
+        border: 1px solid $DarkShade25;
+        border-radius: .3rem;
+        outline: none;
+        color: $DarkShade75;
+        padding: 1.3rem;
+        &::placeholder {
+            color: $DarkShade25;
+        }
+        &:hover,
+        &:focus
+        {
+            border: 1px solid $DarkShade50;
+            color: $DarkShade75;
+        }
+    }    
+}
