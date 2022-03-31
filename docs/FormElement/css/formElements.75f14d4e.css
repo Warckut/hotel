@@ -156,7 +156,7 @@ label {
   margin-left: 1.5rem;
 }
 .like-active {
-  box-shadow: 0 0 0 0.1rem rgba(31, 32, 65, 0.25);
+  box-shadow: 0 0 0 0.1rem #BC9CFF;
 }
 .like-active .like__icon {
   background: no-repeat url("like-active.0096d242.svg");
@@ -351,4 +351,4 @@ label {
   display: flex;
   justify-content: space-between;
 }
-/*# sourceMappingURL=formElements.css.map */
+/*# sourceMappingURL=formElements.75f14d4e.css.map */
